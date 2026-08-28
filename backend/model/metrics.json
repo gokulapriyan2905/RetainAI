@@ -1,0 +1,138 @@
+{
+  "best_model": "Random Forest",
+  "dataset_size": 4424,
+  "train_size": 3539,
+  "test_size": 885,
+  "dropout_count": 1421,
+  "non_dropout_count": 3003,
+  "all_results": {
+    "Logistic Regression": {
+      "recall": 0.831,
+      "precision": 0.7867,
+      "f1": 0.8082,
+      "confusion_matrix": [
+        [
+          537,
+          64
+        ],
+        [
+          48,
+          236
+        ]
+      ]
+    },
+    "Random Forest": {
+      "recall": 0.7958,
+      "precision": 0.8278,
+      "f1": 0.8115,
+      "confusion_matrix": [
+        [
+          554,
+          47
+        ],
+        [
+          58,
+          226
+        ]
+      ]
+    },
+    "XGBoost": {
+      "recall": 0.8028,
+      "precision": 0.8143,
+      "f1": 0.8085,
+      "confusion_matrix": [
+        [
+          549,
+          52
+        ],
+        [
+          56,
+          228
+        ]
+      ]
+    }
+  },
+  "feature_importance": [
+    [
+      "Curricular units 2nd sem (approved)",
+      0.15779532236644891
+    ],
+    [
+      "Curricular units 2nd sem (grade)",
+      0.11397872540105743
+    ],
+    [
+      "Curricular units 1st sem (approved)",
+      0.08642635242631963
+    ],
+    [
+      "Curricular units 1st sem (grade)",
+      0.06794877307451286
+    ],
+    [
+      "Tuition fees up to date",
+      0.05924566121223176
+    ],
+    [
+      "Age at enrollment",
+      0.043516326207422046
+    ],
+    [
+      "Admission grade",
+      0.038760007920604474
+    ],
+    [
+      "Curricular units 2nd sem (evaluations)",
+      0.03398096571538897
+    ],
+    [
+      "Previous qualification (grade)",
+      0.03350921722628
+    ],
+    [
+      "Course",
+      0.02981844653078195
+    ],
+    [
+      "Curricular units 1st sem (evaluations)",
+      0.02900475827423439
+    ],
+    [
+      "Father's occupation",
+      0.025887871096926314
+    ],
+    [
+      "Mother's occupation",
+      0.02426237001174876
+    ],
+    [
+      "Application mode",
+      0.020675957152050728
+    ],
+    [
+      "GDP",
+      0.01947613470299942
+    ],
+    [
+      "Father's qualification",
+      0.01929830662857749
+    ],
+    [
+      "Debtor",
+      0.01904070969079964
+    ],
+    [
+      "Mother's qualification",
+      0.01885052303687319
+    ],
+    [
+      "Curricular units 2nd sem (enrolled)",
+      0.01858566030672298
+    ],
+    [
+      "Unemployment rate",
+      0.018581617526256852
+    ]
+  ],
+  "uses_scaler": false
+}

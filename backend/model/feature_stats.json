@@ -1,0 +1,254 @@
+{
+  "Marital Status": {
+    "min": 1.0,
+    "max": 6.0,
+    "mean": 1.1785714285714286,
+    "std": 0.60574694613071,
+    "median": 1.0
+  },
+  "Application mode": {
+    "min": 1.0,
+    "max": 57.0,
+    "mean": 18.669077757685354,
+    "std": 17.484682291004756,
+    "median": 17.0
+  },
+  "Application order": {
+    "min": 0.0,
+    "max": 9.0,
+    "mean": 1.7278481012658229,
+    "std": 1.313793078362206,
+    "median": 1.0
+  },
+  "Course": {
+    "min": 33.0,
+    "max": 9991.0,
+    "mean": 8856.642631103074,
+    "std": 2063.566416197521,
+    "median": 9238.0
+  },
+  "Daytime/evening attendance": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.8908227848101266,
+    "std": 0.3118966814817871,
+    "median": 1.0
+  },
+  "Previous qualification": {
+    "min": 1.0,
+    "max": 43.0,
+    "mean": 4.577757685352622,
+    "std": 10.21659234126796,
+    "median": 1.0
+  },
+  "Previous qualification (grade)": {
+    "min": 95.0,
+    "max": 190.0,
+    "mean": 132.6133137432188,
+    "std": 13.188331685876213,
+    "median": 133.1
+  },
+  "Nacionality": {
+    "min": 1.0,
+    "max": 109.0,
+    "mean": 1.8731916817359855,
+    "std": 6.914514032330145,
+    "median": 1.0
+  },
+  "Mother's qualification": {
+    "min": 1.0,
+    "max": 44.0,
+    "mean": 19.561934900542497,
+    "std": 15.603186323037939,
+    "median": 19.0
+  },
+  "Father's qualification": {
+    "min": 1.0,
+    "max": 44.0,
+    "mean": 22.275316455696203,
+    "std": 15.343107814088581,
+    "median": 19.0
+  },
+  "Mother's occupation": {
+    "min": 0.0,
+    "max": 194.0,
+    "mean": 10.960895117540687,
+    "std": 26.418252905143117,
+    "median": 5.0
+  },
+  "Father's occupation": {
+    "min": 0.0,
+    "max": 195.0,
+    "mean": 11.032323688969258,
+    "std": 25.26304024234492,
+    "median": 7.0
+  },
+  "Admission grade": {
+    "min": 95.0,
+    "max": 190.0,
+    "mean": 126.97811934900544,
+    "std": 14.482000818849468,
+    "median": 126.1
+  },
+  "Displaced": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.548372513562387,
+    "std": 0.49771085343169424,
+    "median": 1.0
+  },
+  "Educational special needs": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.011528028933092224,
+    "std": 0.10676005722115345,
+    "median": 0.0
+  },
+  "Debtor": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.11369801084990959,
+    "std": 0.3174800096578208,
+    "median": 0.0
+  },
+  "Tuition fees up to date": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.8806509945750453,
+    "std": 0.3242353829723811,
+    "median": 1.0
+  },
+  "Gender": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.35171790235081374,
+    "std": 0.47756043706245527,
+    "median": 0.0
+  },
+  "Scholarship holder": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.24841772151898733,
+    "std": 0.43214415391219485,
+    "median": 0.0
+  },
+  "Age at enrollment": {
+    "min": 17.0,
+    "max": 70.0,
+    "mean": 23.265144665461122,
+    "std": 7.587815615029815,
+    "median": 20.0
+  },
+  "International": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.024864376130198915,
+    "std": 0.15572931888680808,
+    "median": 0.0
+  },
+  "Curricular units 1st sem (credited)": {
+    "min": 0.0,
+    "max": 20.0,
+    "mean": 0.7099909584086799,
+    "std": 2.3605066191181976,
+    "median": 0.0
+  },
+  "Curricular units 1st sem (enrolled)": {
+    "min": 0.0,
+    "max": 26.0,
+    "mean": 6.2705696202531644,
+    "std": 2.480178175307158,
+    "median": 6.0
+  },
+  "Curricular units 1st sem (evaluations)": {
+    "min": 0.0,
+    "max": 45.0,
+    "mean": 8.299050632911392,
+    "std": 4.179105569144036,
+    "median": 8.0
+  },
+  "Curricular units 1st sem (approved)": {
+    "min": 0.0,
+    "max": 26.0,
+    "mean": 4.706600361663653,
+    "std": 3.094237979693975,
+    "median": 5.0
+  },
+  "Curricular units 1st sem (grade)": {
+    "min": 0.0,
+    "max": 18.875,
+    "mean": 10.640821575178572,
+    "std": 4.843663380671798,
+    "median": 12.28571429
+  },
+  "Curricular units 1st sem (without evaluations)": {
+    "min": 0.0,
+    "max": 12.0,
+    "mean": 0.13765822784810128,
+    "std": 0.6908801837297979,
+    "median": 0.0
+  },
+  "Curricular units 2nd sem (credited)": {
+    "min": 0.0,
+    "max": 19.0,
+    "mean": 0.5418173598553345,
+    "std": 1.9185461437101994,
+    "median": 0.0
+  },
+  "Curricular units 2nd sem (enrolled)": {
+    "min": 0.0,
+    "max": 23.0,
+    "mean": 6.232142857142857,
+    "std": 2.1959507514632417,
+    "median": 6.0
+  },
+  "Curricular units 2nd sem (evaluations)": {
+    "min": 0.0,
+    "max": 33.0,
+    "mean": 8.063291139240507,
+    "std": 3.94795094143741,
+    "median": 8.0
+  },
+  "Curricular units 2nd sem (approved)": {
+    "min": 0.0,
+    "max": 20.0,
+    "mean": 4.435804701627487,
+    "std": 3.014763902385539,
+    "median": 5.0
+  },
+  "Curricular units 2nd sem (grade)": {
+    "min": 0.0,
+    "max": 18.57142857,
+    "mean": 10.230205722719258,
+    "std": 5.210807954658554,
+    "median": 12.2
+  },
+  "Curricular units 2nd sem (without evaluations)": {
+    "min": 0.0,
+    "max": 12.0,
+    "mean": 0.15031645569620253,
+    "std": 0.7537740685130098,
+    "median": 0.0
+  },
+  "Unemployment rate": {
+    "min": 7.6,
+    "max": 16.2,
+    "mean": 11.56613924050633,
+    "std": 2.6638504843026354,
+    "median": 11.1
+  },
+  "Inflation rate": {
+    "min": -0.8,
+    "max": 3.7,
+    "mean": 1.228028933092224,
+    "std": 1.3827106915401126,
+    "median": 1.4
+  },
+  "GDP": {
+    "min": -4.06,
+    "max": 3.51,
+    "mean": 0.001968806509945778,
+    "std": 2.2699354412537676,
+    "median": 0.32
+  }
+}

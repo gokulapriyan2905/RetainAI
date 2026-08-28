@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #0f1117;
+  --foreground: #e8eaed;
+  --card: #1a1d27;
+  --card-hover: #222632;
+  --border: #2a2e3a;
+  --muted: #6b7280;
+  --accent: #6366f1;
+  --accent-light: #818cf8;
+  --high-risk: #ef4444;
+  --high-risk-bg: rgba(239, 68, 68, 0.12);
+  --medium-risk: #f59e0b;
+  --medium-risk-bg: rgba(245, 158, 11, 0.12);
+  --low-risk: #10b981;
+  --low-risk-bg: rgba(16, 185, 129, 0.12);
+  --success: #10b981;
+  --danger: #ef4444;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* Risk badge styles */
+.risk-high {
+  background: var(--high-risk-bg);
+  color: var(--high-risk);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.risk-medium {
+  background: var(--medium-risk-bg);
+  color: var(--medium-risk);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.risk-low {
+  background: var(--low-risk-bg);
+  color: var(--low-risk);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: all 0.2s ease;
+}
+
+.card-hover:hover {
+  background: var(--card-hover);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+/* Toast slide-in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
